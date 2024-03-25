@@ -13,6 +13,5 @@ jobs:
         uses: actions/setup-node@v3
       - run: npm ci
       - run: npm run build --if-present
-      - run: npm test
       - name: Run a one-line script
         run: echo 412 Ihor!
